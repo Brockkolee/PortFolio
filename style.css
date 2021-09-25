@@ -407,3 +407,92 @@ button:hover {
 .mail-icon {
     transform: rotate(60deg);
 }
+
+@media screen and (max-width: 700px) {
+    .leaf {
+        display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .leaf {
+        width: 25em;
+        height: 30em;
+    }
+
+    .leaf-video {
+        width: 17em;
+        height: 17em;
+    }
+
+    .introduction-section {
+        font-size: 1em;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    .content {
+        font-size: 2em;
+    }
+
+    .leaf3 {
+        top: 20em;
+        height: 10em;
+    }
+
+    .leaf2 {
+        height: 12em;
+        width: 8em;
+    }
+
+    .programs {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        justify-content: space-between;
+    }
+
+    .trees {
+        display: none;
+    }
+
+    .tree {
+        margin: 5em;
+    }
+
+    .form-container {
+        height: 28em;
+    }
+
+    textarea {
+        height: 8em;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+    .leaf1 {
+        display: none;
+    } 
+
+    .leaf2 {
+        top: 15em;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .content {
+        font-size: 2em;
+        margin-top: 7em;
+    }
+
+    .form-container {
+        width: 20em;
+    }
+    
+  }
